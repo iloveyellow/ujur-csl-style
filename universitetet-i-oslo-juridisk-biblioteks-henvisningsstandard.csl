@@ -33,18 +33,39 @@
       <term name="open-quote">"</term>
       <term name="close-quote">"</term>
       <term name="accessed">sitert</term>
-	  <term name="no date">udatert</term>
+      <term name="no date">udatert</term>
     </terms>
   </locale>
-  <macro name="forfatter-i-fotnote">
+  <macro name="ansvar-fotnote">
     <names variable="author">
       <name form="short"/>
     </names>
   </macro>
-  <macro name="forfatter-i-bibliografi">
-    <names variable="author"></names>
+  <macro name="ansvar-bibliografi">
+    <names variable="author"/>
   </macro>
-  <macro name="publikasjonsår">
+  <macro name="tittel-fotnote">
+    <choose>
+      <if type="article-journal">
+        <text quotes="true" variable="title"/>
+      </if>
+      <else-if type="chapter">
+        <text quotes="true" variable="title"/>
+      </else-if>
+	  <else-if type="legislation">
+        <text variable="title-short"/>
+      </else-if>
+      <else-if type="legal_case">
+        <text variable="title"/>
+      </else-if>
+      <else>
+        <text font-style="italic" variable="title"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="tittel-bibliografi">
+  </macro>
+  <macro name="publiseringstidspunkt-fotnote">
     <choose>
       <if variable="issued">
         <date prefix="(" suffix=")" variable="issued">
@@ -56,43 +77,50 @@
       </else>
     </choose>
   </macro>
+  <macro name="publiseringstidspunkt-bibliografi">
+  </macro>
   <citation et-al-min="1" et-al-use-first="1">
     <sort>
-      <key macro="forfatter-i-fotnote"/>
-      <key macro="publikasjonsår"/>
+      <key macro="ansvar-fotnote"/>
+      <key macro="tittel-fotnote"/>
+      <key macro="publiseringstidspunkt-fotnote"/>
     </sort>
     <layout delimiter=", ">
       <group delimiter=" ">
-        <text macro="forfatter-i-fotnote"/>
-        <text macro="publikasjonsår"/>
+        <choose>
+          <if type="legal_case">
+            <text macro="tittel-fotnote"/>
+          </if>
+		  <else-if type="legislation">
+		    <text macro="tittel-fotnote"/>
+		  </else-if>
+		  <else-if type="report">
+		    <text macro="ansvar-fotnote"/>
+			<text variable="number"/>
+		  </else-if>
+          <else>
+            <text macro="ansvar-fotnote"/>
+            <text macro="publiseringstidspunkt-fotnote"/>
+          </else>
+        </choose>
       </group>
     </layout>
   </citation>
   <bibliography et-al-min="5" et-al-use-first="1" name-as-sort-order="first">
     <sort>
-      <key macro="forfatter-i-bibliografi"/>
-      <key macro="publikasjonsår"/>
-      <key variable="title"/>
+      <key macro="ansvar-bibliografi"/>
+      <key macro="tittel-fotnote"/>
+      <key macro="publiseringstidspunkt-fotnote"/>
     </sort>
     <layout suffix=".">
       <group delimiter=", ">
-        <text macro="forfatter-i-bibliografi"/>
-        <choose>
-          <if type="article-journal">
-            <text quotes="true" variable="title"/>
-          </if>
-          <else-if type="chapter">
-            <text quotes="true" variable="title"/>
-          </else-if>
-          <else>
-            <text font-style="italic" variable="title"/>
-          </else>
-        </choose>
+        <text macro="ansvar-bibliografi"/>
+        <text macro="tittel-fotnote"/>
       </group>
       <group prefix=", " delimiter=" ">
         <text font-style="italic" variable="container-title"/>
         <text prefix="Årg. " variable="volume"/>
-        <text macro="publikasjonsår"/>
+        <text macro="publiseringstidspunkt-fotnote"/>
         <text variable="issue" prefix="(" suffix=")"/>
       </group>
       <text prefix=", s. " variable="page"/>
