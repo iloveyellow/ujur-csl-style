@@ -52,7 +52,7 @@
       <else-if type="chapter">
         <text quotes="true" variable="title"/>
       </else-if>
-	  <else-if type="legislation">
+      <else-if type="legislation">
         <text variable="title-short"/>
       </else-if>
       <else-if type="legal_case">
@@ -63,8 +63,7 @@
       </else>
     </choose>
   </macro>
-  <macro name="tittel-bibliografi">
-  </macro>
+  <macro name="tittel-bibliografi"></macro>
   <macro name="publiseringstidspunkt-fotnote">
     <choose>
       <if variable="issued">
@@ -77,8 +76,7 @@
       </else>
     </choose>
   </macro>
-  <macro name="publiseringstidspunkt-bibliografi">
-  </macro>
+  <macro name="publiseringstidspunkt-bibliografi"></macro>
   <citation et-al-min="1" et-al-use-first="1">
     <sort>
       <key macro="ansvar-fotnote"/>
@@ -91,13 +89,13 @@
           <if type="legal_case">
             <text macro="tittel-fotnote"/>
           </if>
-		  <else-if type="legislation">
-		    <text macro="tittel-fotnote"/>
-		  </else-if>
-		  <else-if type="report">
-		    <text macro="ansvar-fotnote"/>
-			<text variable="number"/>
-		  </else-if>
+          <else-if type="legislation">
+            <text macro="tittel-fotnote"/>
+          </else-if>
+          <else-if type="report">
+            <text macro="ansvar-fotnote"/>
+            <text variable="number"/>
+          </else-if>
           <else>
             <text macro="ansvar-fotnote"/>
             <text macro="publiseringstidspunkt-fotnote"/>
