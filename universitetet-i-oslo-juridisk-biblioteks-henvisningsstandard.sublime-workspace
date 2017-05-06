@@ -1,0 +1,501 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"answ",
+				"answers"
+			],
+			[
+				"new",
+				"newTextfile"
+			],
+			[
+				"wor",
+				"wordRegex"
+			],
+			[
+				"read",
+				"readContent"
+			],
+			[
+				"tex",
+				"textFileName"
+			],
+			[
+				"textF",
+				"textFileReader"
+			],
+			[
+				"te",
+				"textfile"
+			],
+			[
+				"inp",
+				"inputContent"
+			],
+			[
+				"word",
+				"wordFinder"
+			],
+			[
+				"mad",
+				"madlibContent_2"
+			],
+			[
+				"madli",
+				"madlibContent_2"
+			],
+			[
+				"ma",
+				"madlibcontent"
+			],
+			[
+				"lis",
+				"listOfKeys"
+			],
+			[
+				"list",
+				"listOfKeyAndValues"
+			],
+			[
+				"mc",
+				"mcbShelf"
+			],
+			[
+				"mcb",
+				"mcbShelf"
+			],
+			[
+				"ans",
+				"answerKeyFile"
+			],
+			[
+				"quiz",
+				"quizFile"
+			],
+			[
+				"wrong",
+				"wrongAnswers"
+			],
+			[
+				"question",
+				"questionNum"
+			],
+			[
+				"qui",
+				"quizFile"
+			],
+			[
+				"end",
+				"endStrippedString"
+			],
+			[
+				"en",
+				"END_REGEX"
+			],
+			[
+				"char",
+				"charArg"
+			],
+			[
+				"cha",
+				"charArg"
+			],
+			[
+				"str",
+				"stripRegex"
+			],
+			[
+				"passwor",
+				"passwordIsStrong"
+			],
+			[
+				"nu",
+				"NUM_REGEX"
+			],
+			[
+				"lo",
+				"LO_REGEX"
+			],
+			[
+				"up",
+				"UP_REGEX"
+			],
+			[
+				"pass",
+				"passwordIsStrong"
+			],
+			[
+				"passwo",
+				"passwordStrong"
+			],
+			[
+				"mo",
+				"mo_4"
+			],
+			[
+				"mo_",
+				"mo_4"
+			],
+			[
+				"lower",
+				"lowercaseRegex"
+			],
+			[
+				"upperca",
+				"uppercaseRegex"
+			],
+			[
+				"eight",
+				"eightCharsRegex"
+			],
+			[
+				"Stron",
+				"strongPassRegex_1"
+			],
+			[
+				"all",
+				"allEmails"
+			],
+			[
+				"extr",
+				"extractedEmail"
+			],
+			[
+				"phone",
+				"phoneNumber"
+			],
+			[
+				"ex",
+				"extractedEmail"
+			],
+			[
+				"email",
+				"emailRegex"
+			],
+			[
+				"is",
+				"isPhoneNumer"
+			],
+			[
+				"table",
+				"tableOrganizer"
+			],
+			[
+				"print",
+				"printTable"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"joi",
+				"joinedList_1"
+			],
+			[
+				"l",
+				"listOfLists"
+			],
+			[
+				"col",
+				"colWidths"
+			],
+			[
+				"COL",
+				"colWidths"
+			],
+			[
+				"LIST",
+				"listOfLists"
+			],
+			[
+				"Li",
+				"listOfLists"
+			],
+			[
+				"tabl",
+				"tableData"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"T",
+				"thirdColumn"
+			],
+			[
+				"s",
+				"secondColumn"
+			],
+			[
+				"tab",
+				"tableData"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "universitetet-i-oslo-juridisk-biblioteks-henvisningsstandard.csl",
+			"settings":
+			{
+				"buffer_size": 4750,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Hans Gunnar/Dropbox/GitHub/ujur-csl-style",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects"
+	],
+	"file_history":
+	[
+		"/C/Users/Hans Gunnar/Dropbox/GitHub/ujur-csl-style/universitetet-i-oslo-juridisk-biblioteks-henvisningsstandard.sublime-project",
+		"/C/Users/Hans Gunnar/Dropbox/GitHub/ujur-csl-style/universitetet-i-oslo-juridisk-biblioteks-henvisningsstandard.csl",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/adresselapp.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/randomQuizGenerator.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/mcb.pyw",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/madLibs.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/regexSearch.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/test.txt",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/madlibstext.txt",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/yeah.txt",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/regexStrip.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/strongPasswordDetection.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Mad Libs/madlibstext.txt",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/madlibstext2.txt",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/madlibtext.txt",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/mcb.bak",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/bulletPointAdder.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/totalFileSize.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/phoneAndEmail.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/plusOne.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/funWithRegEx.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/funWithRegEx2.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/funWithRegEx3.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/tablePrinter.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/pw.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/dokumentListe.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/antallKatter.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/hello.sh",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/hello.py",
+		"/C/Users/Hans Gunnar/MyPythonScripts/hello.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/hello.bat",
+		"/C/Users/Hans Gunnar/MyPythonScripts/hello.bat",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/hello.bat",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/hello2.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/hello.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/helloFunction.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/picnicTable.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/usernameAndPassword.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/caseSensitive.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/funWithStrings.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/inventory.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/nestedDictionaries.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/ticTacToe.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/characterCount.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/charPictureGrid.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/commaCode.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/collatzSequence.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/exampleChap4.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/guessNumberGame.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/magic8Ball2.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/dodger.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/if_elif_example.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/gauss.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/dokumentListe.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/while_example.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/DefExample.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/magic8Ball.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/LekeMedTall.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/antallKatter.py",
+		"/C/Users/Hans Gunnar/Dropbox/Python projects/Automate the Boring Stuff/randomNumber.py"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "universitetet-i-oslo-juridisk-biblioteks-henvisningsstandard.csl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4225,
+								4225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2304.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "universitetet-i-oslo-juridisk-biblioteks-henvisningsstandard.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

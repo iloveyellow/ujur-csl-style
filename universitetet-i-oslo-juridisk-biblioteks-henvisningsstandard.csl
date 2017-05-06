@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" default-locale="nb-NO" demote-non-dropping-particle="display-and-sort" page-range-format="expanded">
   <info>
-    <title>Universitetet i Oslo Juridisk biblioteks henvisningsstandard for juridiske arbeider (Footnote with bibliography) (Norwegian Bokmål)</title>
+    <title>Universitetet i Oslo Juridisk biblioteks referansestil for juridiske arbeider (Footnote with bibliography) (Norwegian Bokmål)</title>
     <title-short>UiO-UJUR</title-short>
     <id>http://www.zotero.org/styles/universitetet-i-oslo-juridisk-biblioteks-henvisningsstandard</id>
     <link href="http://www.zotero.org/styles/universitetet-i-oslo-juridisk-bibliotek" rel="self"/>
@@ -12,7 +12,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <summary>This is the University of Oslo Law Library's recommendations for how to cite legal sources in Norwegian. These recommendations are primarily aimed at students.</summary>
+    <summary>This is the University of Oslo Law Library's reference style adapted to be used with Norwegian legal sources. These recommendations are primarily aimed at students.</summary>
     <updated>2017-04-21T17:53:01+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
