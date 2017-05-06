@@ -12,7 +12,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <summary>This is the University of Oslo Law Library's reference style adapted for Norwegian legal sources. These recommendations are primarily aimed at students.</summary>
+    <summary>University of Oslo Law Library's reference style. Adapted for use with Norwegian legal sources.</summary>
     <updated>2017-04-21T17:53:01+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
@@ -124,7 +124,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography et-al-min="5" et-al-use-first="1" name-as-sort-order="first">
+  <bibliography et-al-min="5" et-al-use-first="1" name-as-sort-order="first" entry-spacing="0">
     <sort>
       <key macro="ansvar-bibliografi"/>
       <key macro="tittel-bibliografi"/>

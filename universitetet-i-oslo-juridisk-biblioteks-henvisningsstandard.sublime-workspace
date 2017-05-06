@@ -243,7 +243,7 @@
 			"file": "universitetet-i-oslo-juridisk-biblioteks-henvisningsstandard.csl",
 			"settings":
 			{
-				"buffer_size": 4750,
+				"buffer_size": 5266,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -286,8 +286,8 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Hans Gunnar/Dropbox/GitHub/ujur-csl-style/universitetet-i-oslo-juridisk-biblioteks-henvisningsstandard.sublime-project",
 		"/C/Users/Hans Gunnar/Dropbox/GitHub/ujur-csl-style/universitetet-i-oslo-juridisk-biblioteks-henvisningsstandard.csl",
+		"/C/Users/Hans Gunnar/Dropbox/GitHub/ujur-csl-style/universitetet-i-oslo-juridisk-biblioteks-henvisningsstandard.sublime-project",
 		"/C/Users/Hans Gunnar/Dropbox/Python projects/adresselapp.py",
 		"/C/Users/Hans Gunnar/Dropbox/Python projects/randomQuizGenerator.py",
 		"/C/Users/Hans Gunnar/Dropbox/Python projects/mcb.pyw",
@@ -349,7 +349,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -363,6 +363,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"utgave",
+			"publiseringstidspunkt",
+			"publisert",
+			"publisert-bibliografi",
+			"publiseringstidspunkt-bibliografi"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -389,15 +394,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4750,
+						"buffer_size": 5266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4225,
-								4225
+								4749,
+								4749
 							]
 						],
 						"settings":
@@ -407,7 +412,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2304.0,
+						"translation.y": 211.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -418,7 +423,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -455,7 +460,7 @@
 	"project": "universitetet-i-oslo-juridisk-biblioteks-henvisningsstandard.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
