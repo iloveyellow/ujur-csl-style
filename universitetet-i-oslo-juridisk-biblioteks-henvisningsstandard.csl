@@ -12,7 +12,7 @@
     </author>
     <category citation-format="note"/>
     <category field="law"/>
-    <summary>This is the University of Oslo Law Library's reference style adapted to be used with Norwegian legal sources. These recommendations are primarily aimed at students.</summary>
+    <summary>This is the University of Oslo Law Library's reference style adapted for Norwegian legal sources. These recommendations are primarily aimed at students.</summary>
     <updated>2017-04-21T17:53:01+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
@@ -63,8 +63,10 @@
       </else>
     </choose>
   </macro>
-  <macro name="tittel-bibliografi"></macro>
-  <macro name="publiseringstidspunkt-fotnote">
+  <macro name="tittel-bibliografi">
+    <text font-style="italic" variable="title"/>
+  </macro>
+  <macro name="publisert-fotnote">
     <choose>
       <if variable="issued">
         <date prefix="(" suffix=")" variable="issued">
@@ -76,12 +78,23 @@
       </else>
     </choose>
   </macro>
-  <macro name="publiseringstidspunkt-bibliografi"></macro>
+  <macro name="publisert-bibliografi">
+    <choose>
+      <if variable="issued">
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </if>
+      <else>
+        <text term="no date" prefix="(" suffix=")"/>
+      </else>
+    </choose>
+  </macro>
   <citation et-al-min="1" et-al-use-first="1">
     <sort>
       <key macro="ansvar-fotnote"/>
       <key macro="tittel-fotnote"/>
-      <key macro="publiseringstidspunkt-fotnote"/>
+      <key macro="publisert-fotnote"/>
     </sort>
     <layout delimiter=", ">
       <group delimiter=" ">
@@ -98,7 +111,7 @@
           </else-if>
           <else>
             <text macro="ansvar-fotnote"/>
-            <text macro="publiseringstidspunkt-fotnote"/>
+            <text macro="publisert-fotnote"/>
           </else>
         </choose>
       </group>
@@ -107,21 +120,24 @@
   <bibliography et-al-min="5" et-al-use-first="1" name-as-sort-order="first">
     <sort>
       <key macro="ansvar-bibliografi"/>
-      <key macro="tittel-fotnote"/>
-      <key macro="publiseringstidspunkt-fotnote"/>
+      <key macro="tittel-bibliografi"/>
+      <key variable="edition"/>
+      <key macro="publisert-bibliografi"/>
     </sort>
     <layout suffix=".">
       <group delimiter=", ">
         <text macro="ansvar-bibliografi"/>
-        <text macro="tittel-fotnote"/>
+        <text macro="tittel-bibliografi"/>
       </group>
       <group prefix=", " delimiter=" ">
         <text font-style="italic" variable="container-title"/>
         <text prefix="Årg. " variable="volume"/>
-        <text macro="publiseringstidspunkt-fotnote"/>
+        <text suffix=". utg.," variable="edition"/>
+        <text macro="publisert-bibliografi"/>
         <text variable="issue" prefix="(" suffix=")"/>
       </group>
-      <text prefix=", s. " variable="page"/>
+      <text prefix=", s. " suffix=" " variable="page"/>
+      <text variable="archive" text-case="capitalize-first" prefix="(Sitert fra " suffix=")"/>
     </layout>
   </bibliography>
 </style>
